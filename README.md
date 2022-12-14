@@ -1,15 +1,15 @@
-# O2script/additionalPrice
+# O2script/additionalprice
 
 URL: `http://mage244.com/`
 
 ## Composer install
 
-- `composer config repositories.additionalPrice vcs https://github.com/rajudiya/additionalPrice`
-- `composer require o2scrip/additionalPrice:dev-main`
+- `composer config repositories.additionalprice vcs https://github.com/rajudiya/additionalprice`
+- `composer require o2scrip/additionalprice:dev-main`
 
 ## Composer uninstall
 
-- `composer remove o2scrip/additionalPrice`
+- `composer remove o2scrip/additionalprice`
 
 ## Preview will be added
 
