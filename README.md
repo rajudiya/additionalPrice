@@ -4,12 +4,12 @@ URL: `http://mage244.com/`
 
 ## Composer install
 
-- `composer config repositories.reponame vcs https://github.com/rajudiya/additionalPrice`
-- `composer require vendername/additionalPrice`
+- `composer config repositories.additionalPrice vcs https://github.com/rajudiya/additionalPrice`
+- `composer require o2scrip/additionalPrice:dev-main`
 
 ## Composer uninstall
 
-- `composer remove vendername/additionalPrice:branch name`
+- `composer remove o2scrip/additionalPrice`
 
 ## Preview will be added
 
@@ -17,14 +17,6 @@ URL: `http://mage244.com/`
 - `Images`
 
 ## Settings
-- app/code/O2script/Module/registration.php 
-  `O2script_additionalPrice` replace with `Vendername_Modulename`
-
-- app/code/O2script/Module/etc/module.xml 
-  `O2script_additionalPrice` replace with `Vendername_Modulename` 
-
-- in a Composer.json File in Change `Name & psr-4`
-  `O2script/additionalPrice` replace with `vendername/modulename`
 - Option `will be updated ..` - no settings
 
 ## Known issues
