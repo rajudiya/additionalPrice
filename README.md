@@ -1,30 +1,30 @@
-# Sample/sampleModule
+# O2script/additionalPrice
 
 URL: `http://mage244.com/`
 
 ## Composer install
 
-- `composer config repositories.reponame vcs https://github.com/rajudiya/sampleModule`
-- `composer require vendername/sampleModule`
+- `composer config repositories.reponame vcs https://github.com/rajudiya/additionalPrice`
+- `composer require vendername/additionalPrice`
 
 ## Composer uninstall
 
-- `composer remove vendername/sampleModule:branch name`
+- `composer remove vendername/additionalPrice:branch name`
 
 ## Preview will be added
 
-- `This is Sample Module`
+- `This is O2script Module`
 - `Images`
 
 ## Settings
-- app/code/Sample/Module/registration.php 
-  `Sample_sampleModule` replace with `Vendername_Modulename`
+- app/code/O2script/Module/registration.php 
+  `O2script_additionalPrice` replace with `Vendername_Modulename`
 
-- app/code/Sample/Module/etc/module.xml 
-  `Sample_sampleModule` replace with `Vendername_Modulename` 
+- app/code/O2script/Module/etc/module.xml 
+  `O2script_additionalPrice` replace with `Vendername_Modulename` 
 
 - in a Composer.json File in Change `Name & psr-4`
-  `sample/sampleModule` replace with `vendername/modulename`
+  `O2script/additionalPrice` replace with `vendername/modulename`
 - Option `will be updated ..` - no settings
 
 ## Known issues
