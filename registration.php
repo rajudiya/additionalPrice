@@ -5,4 +5,4 @@
  */
 use Magento\Framework\Component\ComponentRegistrar;
 
-ComponentRegistrar::register(ComponentRegistrar::MODULE, 'Sample_sampleModule', __DIR__);
+ComponentRegistrar::register(ComponentRegistrar::MODULE, 'O2script_AdditionalPrice', __DIR__);
