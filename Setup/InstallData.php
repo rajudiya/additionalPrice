@@ -1,5 +1,5 @@
 <?php
-namespace O2scrip\Additionalprice\Setup;
+namespace o2scrip\additionalprice\Setup;
 
 use Magento\Eav\Setup\EavSetup;
 use Magento\Eav\Setup\EavSetupFactory;
