@@ -11,7 +11,7 @@
       "registration.php"
     ],
     "psr-4": {
-      "o2script\\additionalprice\\": ""
+      "O2script\\AdditionalPrice\\": ""
     }
   }
 }
