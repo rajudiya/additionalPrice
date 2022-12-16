@@ -103,4 +103,12 @@ class CreateAttr implements DataPatchInterface {
     public function getAliases() {
         return [];
     }
+
+    /**
+   * {@inheritdoc}
+   */
+   public static function getVersion()
+   {
+      return '2.0.0';
+   }
 }
