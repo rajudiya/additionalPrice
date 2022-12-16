@@ -1,5 +1,5 @@
 {
-  "name": "o2script/additional-price",
+  "name": "o2script/module-additional-price",
   "description": "Sample Module quick Install",
   "type": "magento2-module",
   "version": "1.0.0",
