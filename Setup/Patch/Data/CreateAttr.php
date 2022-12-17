@@ -88,6 +88,34 @@ class CreateAttr implements DataPatchInterface {
         ];
         
         $this->blockFactory->create()->setData($addPriceBlockData)->save();
+
+        /**
+         * Add attributes to the eav_attribute
+         */
+        $eavSetup->addAttribute(
+            \Magento\Catalog\Model\Product::ENTITY,
+            'Country',
+            [
+                'group'        => 'General',
+                'type'         => 'varchar',
+                'backend'      => '',
+                'frontend'     => '',
+                'label'        => 'Country',
+                'input'        => 'text',
+                'frontend_class' => 'required-entry',
+                'global'       => ScopedAttributeInterface::SCOPE_GLOBAL,
+                'visible'      => true,
+                'required'     => false,
+                'user_defined' => false,
+                'default'      => '',
+                'searchable'   => false,
+                'filterable'   => false,
+                'comparable'   => false,
+                'unique'       => false,
+                'visible_on_front'        => false,
+                'used_in_product_listing' => true
+            ]
+        );
     }
 
     /**
