@@ -2,7 +2,11 @@
   "name": "o2script/additional-price",
   "description": "Sample Module quick Install",
   "type": "magento2-module",
-  "version": "100.4.4",
+  "version": "1.0.0",
+  "license": [
+    "OSL-3.0",
+    "AFL-3.0"
+  ],
   "require": {
       "php": "~7.3.0||~7.4.0||^8.0.0",
       "magento/framework": "100.0.*|102.0.*|103.0.*"
