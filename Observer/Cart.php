@@ -9,16 +9,15 @@ class Cart implements ObserverInterface
 {
     public function execute(Observer $observer)
     {
-        //get the item just added to cart
-        $item = $observer->getEvent()->getData('quote_item');
-        echo $product = $observer->getEvent()->getData('product');
-        // set your custom price
-        $price = 300;
-        $item->setCustomPrice($price);
-        $item->setOriginalCustomPrice($price);
-        $item->getProduct()->setIsSuperMode(true);
-
-        /* add your Logic here*/
+    $item = $observer->getEvent()->getData('quote_item');
+    $product = $observer->getEvent()->getData('product');
+    $itemProId = $item->getProduct()->getId();
+    $optionId = $item->getProduct()->getData('addPrice');
+    $custom_price = $product->getPrice() + $optionId;
+    $item->setCustomPrice($custom_price);
+    $item->setOriginalCustomPrice($custom_price);
+    $item->getProduct()->setIsSuperMode(true);
+    return $this;
     }
 }
 
